@@ -11,8 +11,6 @@ int main(void)
                 if ((i*900 + j*750 + k*200 == N)&&(k<i || k<j)) {
                     printf("%d %d %d\n",i,j,k);
                     found = true;
-                    
-                    }
                 }
             }
         }
