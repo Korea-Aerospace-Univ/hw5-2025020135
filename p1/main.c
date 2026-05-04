@@ -2,7 +2,8 @@
 
 int main(void)
 {
-    int N, found = 0;
+    int N;
+    int found = 0;
     scanf("%d",&N);
     for(int i=1;i*900<N; i++) {
         for(int j=1; j*750<N; j++) {
